@@ -43,6 +43,8 @@ Use the following command to copy the files to Partition 1 (BOOT) of the bootabl
 *Good news, we are half done!*
 
 Now, you need to download the rootfs files required for partition 2 of the bootable USB. 
-According to http://www.wiki.xilinx.com/Ubuntu+on+Zynq you need to download the rootfs folders/files, which is the root file system based on Ubuntu's core file system in particular the armhf release of Ubuntu 12.10 (Quantal Quetzal). But since this version is very old and ubuntu-core is now renamed to ubuntu-base, I downloaded the root file system from ubuntu-base's website: http://cdimage.ubuntu.com/ubuntu-base/releases/
+According to http://www.wiki.xilinx.com/Ubuntu+on+Zynq you need to download the rootfs folders/files, which is the root file system based on Ubuntu's core file system in particular the armhf release of Ubuntu 12.10 (Quantal Quetzal). But since this version is very old and ubuntu-core is now renamed to ubuntu-base. But since Xlinix ZC702 uses arm based optimisation, which is only provided in the armhf release of Ubuntu 12.10 (Qunatal Quetzal), you need to download it from the following link:
+
+http://www.wiki.xilinx.com/file/view/zynq-ubuntu-core-12.10-core-armhf-rootfs.tar.xz/423293908/zynq-ubuntu-core-12.10-core-armhf-rootfs.tar.xz
 
 [To be continued....]
